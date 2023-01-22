@@ -1,0 +1,512 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0e9f2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0e9f2.dir/build.make CMakeFiles/cmTC_0e9f2.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e9f2.dir/src.c.o
+/usr/lib64/ccache/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_0e9f2.dir/src.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_0e9f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e9f2.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc -O3 -DNDEBUG CMakeFiles/cmTC_0e9f2.dir/src.c.o -o cmTC_0e9f2 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d076/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d076.dir/build.make CMakeFiles/cmTC_5d076.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d076.dir/src.cxx.o
+/usr/lib64/ccache/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_5d076.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_5d076
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d076.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++ -O3 -DNDEBUG CMakeFiles/cmTC_5d076.dir/src.cxx.o -o cmTC_5d076 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd89b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd89b.dir/build.make CMakeFiles/cmTC_cd89b.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd89b.dir/src.cxx.o
+/usr/lib64/ccache/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_cd89b.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_cd89b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd89b.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++ -O3 -DNDEBUG CMakeFiles/cmTC_cd89b.dir/src.cxx.o -o cmTC_cd89b 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e51a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e51a.dir/build.make CMakeFiles/cmTC_7e51a.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e51a.dir/src.c.o
+/usr/lib64/ccache/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_7e51a.dir/src.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_7e51a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e51a.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc -O3 -DNDEBUG CMakeFiles/cmTC_7e51a.dir/src.c.o -o cmTC_7e51a 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f1bc3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f1bc3.dir/build.make CMakeFiles/cmTC_f1bc3.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1bc3.dir/src.c.o
+/usr/lib64/ccache/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_f1bc3.dir/src.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_f1bc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1bc3.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc -O3 -DNDEBUG CMakeFiles/cmTC_f1bc3.dir/src.c.o -o cmTC_f1bc3 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f32ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f32ab.dir/build.make CMakeFiles/cmTC_f32ab.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f32ab.dir/src.c.o
+/usr/lib64/ccache/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_f32ab.dir/src.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_f32ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f32ab.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc -O3 -DNDEBUG CMakeFiles/cmTC_f32ab.dir/src.c.o -o cmTC_f32ab 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b441/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b441.dir/build.make CMakeFiles/cmTC_2b441.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b441.dir/src.cxx.o
+/usr/lib64/ccache/c++   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_2b441.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_2b441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b441.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++ -O3 -DNDEBUG CMakeFiles/cmTC_2b441.dir/src.cxx.o -o cmTC_2b441 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_895ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_895ea.dir/build.make CMakeFiles/cmTC_895ea.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_895ea.dir/src.c.o
+/usr/lib64/ccache/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_895ea.dir/src.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_895ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_895ea.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc -O3 -DNDEBUG CMakeFiles/cmTC_895ea.dir/src.c.o -o cmTC_895ea 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0beb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0beb5.dir/build.make CMakeFiles/cmTC_0beb5.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0beb5.dir/src.c.o
+/usr/lib64/ccache/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_0beb5.dir/src.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_0beb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0beb5.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc -O3 -DNDEBUG CMakeFiles/cmTC_0beb5.dir/src.c.o -o cmTC_0beb5 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1687e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1687e.dir/build.make CMakeFiles/cmTC_1687e.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1687e.dir/src.c.o
+/usr/lib64/ccache/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_1687e.dir/src.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_1687e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1687e.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1687e.dir/src.c.o -o cmTC_1687e 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cf012/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf012.dir/build.make CMakeFiles/cmTC_cf012.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf012.dir/CheckSymbolExists.c.o
+/usr/lib64/ccache/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_cf012.dir/CheckSymbolExists.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[1]: *** [CMakeFiles/cmTC_cf012.dir/build.make:78: CMakeFiles/cmTC_cf012.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cf012/fast] Error 2
+
+
+File /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file /usr/include/libpng/png.h exists failed with the following output:
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f39c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f39c7.dir/build.make CMakeFiles/cmTC_f39c7.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f39c7.dir/CheckIncludeFile.c.o
+/usr/lib64/ccache/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f39c7.dir/CheckIncludeFile.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: /usr/include/libpng/png.h: No such file or directory
+    1 | #include </usr/include/libpng/png.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f39c7.dir/build.make:78: CMakeFiles/cmTC_f39c7.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f39c7/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18804/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18804.dir/build.make CMakeFiles/cmTC_18804.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18804.dir/src.cxx.o
+/usr/lib64/ccache/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_18804.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_18804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18804.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_18804.dir/src.cxx.o -o cmTC_18804 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6289f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6289f.dir/build.make CMakeFiles/cmTC_6289f.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6289f.dir/src.cxx.o
+/usr/lib64/ccache/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_6289f.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_6289f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6289f.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6289f.dir/src.cxx.o -o cmTC_6289f 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2897/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2897.dir/build.make CMakeFiles/cmTC_e2897.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2897.dir/src.cxx.o
+/usr/lib64/ccache/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -std=c++11 -o CMakeFiles/cmTC_e2897.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_e2897
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2897.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e2897.dir/src.cxx.o -o cmTC_e2897 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7659/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7659.dir/build.make CMakeFiles/cmTC_b7659.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7659.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b7659.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7659
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7659.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b7659.dir/CheckFunctionExists.c.o -o cmTC_b7659 
+/usr/bin/ld: CMakeFiles/cmTC_b7659.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b7659.dir/build.make:99: cmTC_b7659] Error 1
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b7659/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6add5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6add5.dir/build.make CMakeFiles/cmTC_6add5.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6add5.dir/src.cxx.o
+/usr/lib64/ccache/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_6add5.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_6add5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6add5.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6add5.dir/src.cxx.o -o cmTC_6add5 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2807/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2807.dir/build.make CMakeFiles/cmTC_c2807.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2807.dir/src.cxx.o
+/usr/lib64/ccache/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_c2807.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_c2807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2807.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c2807.dir/src.cxx.o -o cmTC_c2807 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6f1b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6f1b.dir/build.make CMakeFiles/cmTC_f6f1b.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f6f1b.dir/src.cxx.o
+/usr/lib64/ccache/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_f6f1b.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_f6f1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6f1b.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f6f1b.dir/src.cxx.o -o cmTC_f6f1b 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d0a37/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d0a37.dir/build.make CMakeFiles/cmTC_d0a37.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0a37.dir/CheckIncludeFile.c.o
+/usr/lib64/ccache/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_d0a37.dir/CheckIncludeFile.c.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d0a37.dir/build.make:78: CMakeFiles/cmTC_d0a37.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d0a37/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unused-private-field’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_be899/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be899.dir/build.make CMakeFiles/cmTC_be899.dir/build
+gmake[1]: Entering directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be899.dir/src.cxx.o
+/usr/lib64/ccache/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-unused-private-field -std=c++11 -o CMakeFiles/cmTC_be899.dir/src.cxx.o -c /home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx
+/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-unused-private-field’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_be899
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be899.dir/link.txt --verbose=1
+/usr/lib64/ccache/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_be899.dir/src.cxx.o -o cmTC_be899 
+gmake[1]: Leaving directory '/home/Pawel/Documents/Projects/PokerBotCpp/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
